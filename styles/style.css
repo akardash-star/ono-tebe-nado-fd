@@ -7,7 +7,7 @@
     padding: 92px 50px 96px;
  } 
 
- 
+
  .menu ul {
     display: flex;
     gap: 32px;
@@ -154,6 +154,7 @@
     font-size: 40px;
     font-weight: 700;
     line-height: 100%;
+    margin-bottom: 27px;
  } 
 
 
