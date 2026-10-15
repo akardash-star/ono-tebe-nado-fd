@@ -95,7 +95,7 @@
 
  .aligned-text_center {
     text-align: center;
-    top: -5px;
+    margin-top: 20px;
  }
 
 
@@ -123,9 +123,9 @@
     font-size: 22px;
     line-height: 28px;
     text-transform: uppercase;
-    word-spacing: 10px;
+    word-spacing: 18px;
     color: white;
-    margin-left: 50px;
+    margin-left: 5px;
  }
 
 
@@ -159,7 +159,7 @@
     font-weight: 700;
     line-height: 100%;
     margin-bottom: 29px;
-    margin-left: 59px;
+    margin-left: 43px;
  } 
 
 
@@ -184,6 +184,7 @@
     margin-top: 30px;
     display: block;
     margin-left: 40px;
+    font-size: 20px;
  }
 
 
@@ -271,7 +272,7 @@
     text-transform: uppercase;
     margin-left: -18px;
 
- }
+}
 
 
  .about__text {
@@ -324,9 +325,26 @@
     margin-right: 50px;
  }
 
+
+ .contacts__footer {
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+ }
+
+
+ .contacts__fooret a,
+ .contacts__fooret p {
+    display: block;
+    width: 100%;
+ }
+
  
  .footer__menu {
     justify-self: center;
+    margin-left: 55px;
+    font-size: 18px;
  }
 
 
