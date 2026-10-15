@@ -176,7 +176,7 @@
  .lots__card-list-item {
     width: 334px;
     min-height: 596px;
-    top: -5;
+    top: -10px;
  }
 
 
@@ -265,14 +265,13 @@
 
 
  .about__title {
-    margin-top: 98px;
+    margin-top: 95px;
     font-family: Raleway, sans-serif;
     font-weight: 700;
     font-size: 40px;
     text-transform: uppercase;
     margin-left: -18px;
-
-}
+ }
 
 
  .about__text {
@@ -281,7 +280,7 @@
     font-size: 20px; 
     line-height: 24px;
     letter-spacing: 0;
-    margin-top: 100px;
+    margin-top: 105px;
     display: flex;
     flex-direction: column;
     gap: 30px;
@@ -321,7 +320,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     align-items: start;
-    margin-top: 180px;
+    margin-top: 185px;
     margin-right: 50px;
  }
 
