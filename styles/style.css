@@ -4,7 +4,8 @@
     display: grid;
     grid-template-columns: 1fr min-content 1fr;
     align-items: center;
-    padding: 92px 50px 96px;
+    font-size: 18px;
+    font-family: Raleway, sans-serif;
  } 
 
 
@@ -12,38 +13,48 @@
     display: flex;
     gap: 32px;
     list-style: circle;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    margin-left: 50px;
  }
    
 
  .header__link__active {
+    list-style: none;
     text-decoration: none;
  }
 
 
  .logo {
     display: block;
-        width: 148px;
-
+    width: 133px;
+    height: 115px;
+    margin-top: 94px;
+    margin-bottom: 83px;
+    margin-left: 2px;
  }
 
 
  .contacts {
     font-style: normal;
     max-width: 240px;
-    justify-self: end;
+    /*justify-self: end;*/
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    margin-top: 95px;
+    margin-bottom: 102px;
+    margin-left: 193px;
+    font-size: 18px;
  }
 
 
  .cover {
     position: relative;
-    height: 757px;
     background-image: url(../images/cover.jpg);
     background-size: cover;
     background-position: center;
-    top: -10px;
+    width: 1100px;
+    min-height: 757px;
  }
 
 
@@ -65,11 +76,9 @@
     color: white;
     margin: 0;
     width: 1000px;
-    height: 385px;
     box-sizing: border-box;
     padding: 165px  0 0 ;
     margin-left: 50px;
-    
  }
 
 
@@ -106,14 +115,14 @@
 
 
  .cover__description {
-    position: absolute;
     z-index: 1;
     display: flex;
     justify-content: space-between;
     width: 1000px;
     align-items: center;
     margin-left: 50px;
-    bottom: 50px;
+    margin-top: 110px;
+    color: white;
  }
 
 
@@ -124,8 +133,6 @@
     line-height: 28px;
     text-transform: uppercase;
     word-spacing: 18px;
-    color: white;
-    margin-left: 5px;
  }
 
 
@@ -140,15 +147,13 @@
     line-height: 22px;
     text-align: center;
     height: 51px;
-    color: white;
     text-transform: uppercase;
-
  }
 
 
  .lots {
     padding-inline: 24px;
-     margin-top: 180px;
+    margin-top: 188px;
  }
 
 
@@ -158,8 +163,9 @@
     font-size: 40px;
     font-weight: 700;
     line-height: 100%;
-    margin-bottom: 29px;
-    margin-left: 43px;
+    margin-bottom: 30px;
+    margin-left: 41px;
+    margin-top: 180px;
  } 
 
 
@@ -176,7 +182,6 @@
  .lots__card-list-item {
     width: 334px;
     min-height: 596px;
-    top: -10px;
  }
 
 
@@ -204,7 +209,6 @@
     position: relative;
     justify-content: space-between;
     padding: 48px 40px;
-   
  }
 
 
@@ -265,12 +269,12 @@
 
 
  .about__title {
-    margin-top: 95px;
+    margin-top: 100px;
     font-family: Raleway, sans-serif;
     font-weight: 700;
     font-size: 40px;
     text-transform: uppercase;
-    margin-left: -18px;
+    margin-left: -19px;
  }
 
 
@@ -280,12 +284,12 @@
     font-size: 20px; 
     line-height: 24px;
     letter-spacing: 0;
-    margin-top: 105px;
+    margin-top: 98px;
     display: flex;
     flex-direction: column;
-    gap: 30px;
+    gap: 25px;
     width: 693px;
-    margin-left: -18px;
+    margin-left: -20px;
  }
 
 
@@ -307,7 +311,6 @@
     background-color: black;
     display: flex;
     justify-content: center;
-    
  }
 
 
@@ -319,17 +322,7 @@
  .footer {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    align-items: start;
-    margin-top: 185px;
-    margin-right: 50px;
- }
-
-
- .contacts__footer {
-    font-size: 18px;
-    display: flex;
-    flex-direction: column;
-    margin-left: 50px;
+    margin-top: 85px;
  }
 
 
@@ -339,10 +332,22 @@
     width: 100%;
  }
 
- 
+
+ .contacts__footer {
+   
+    margin-left: 50px;
+    font-style: normal;
+    margin-top: 96px;
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    width: 264px;
+ }
+
+
  .footer__menu {
     justify-self: center;
-    margin-left: 55px;
+    margin-left: 45px;
     font-size: 18px;
  }
 
@@ -352,6 +357,8 @@
     padding: 0;
     margin: 0;
     text-align: center;
+    margin-top: 95px;
+    margin-right: 46px;
  }
 
 
@@ -369,8 +376,9 @@
  .footer__social-list {
     display: flex;
     gap: 48px;
-    justify-self: end;
     list-style: none;
+    margin-top: 95px;
+   margin-left: 75px;
  }
 
 
