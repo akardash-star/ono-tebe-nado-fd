@@ -19,9 +19,8 @@
  }
    
 
- .header__link__active {
+ .header__active {
     list-style: none;
-    text-decoration: none;
  }
 
 
@@ -45,6 +44,7 @@
     margin-bottom: 102px;
     margin-left: 193px;
     font-size: 18px;
+    line-height: 24px;
  }
 
 
@@ -115,6 +115,7 @@
 
 
  .cover__description {
+    position: absolute;
     z-index: 1;
     display: flex;
     justify-content: space-between;
@@ -148,6 +149,7 @@
     text-align: center;
     height: 51px;
     text-transform: uppercase;
+    color: white;
  }
 
 
@@ -253,7 +255,7 @@
 
  .about {
     display: grid;
-    grid-template-columns: 334px 1fr ;
+    grid-template-columns: 314px 1fr ;
     padding-top: 35px;
     margin-top: 120px;
     margin-left: 71px;
@@ -274,7 +276,6 @@
     font-weight: 700;
     font-size: 40px;
     text-transform: uppercase;
-    margin-left: -19px;
  }
 
 
@@ -289,7 +290,7 @@
     flex-direction: column;
     gap: 25px;
     width: 693px;
-    margin-left: -20px;
+
  }
 
 
@@ -323,18 +324,12 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     margin-top: 85px;
- }
-
-
- .contacts__fooret a,
- .contacts__fooret p {
-    display: block;
-    width: 100%;
+    margin-bottom: 82px;
  }
 
 
  .contacts__footer {
-   
+    line-height: 24px;
     margin-left: 50px;
     font-style: normal;
     margin-top: 96px;
