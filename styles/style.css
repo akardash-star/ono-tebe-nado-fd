@@ -37,7 +37,6 @@
  .contacts {
     font-style: normal;
     max-width: 240px;
-    /*justify-self: end;*/
     display: flex;
     flex-direction: column;
     margin-top: 95px;
@@ -328,14 +327,9 @@
  }
 
 
- .contacts__footer {
-    line-height: 24px;
+ .contacts-position {
     margin-left: 50px;
-    font-style: normal;
     margin-top: 96px;
-    font-size: 18px;
-    display: flex;
-    flex-direction: column;
     width: 264px;
  }
 
@@ -373,7 +367,7 @@
     gap: 48px;
     list-style: none;
     margin-top: 95px;
-   margin-left: 75px;
+    margin-left: 75px;
  }
 
 
