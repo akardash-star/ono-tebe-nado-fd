@@ -18,11 +18,15 @@
     margin-left: 50px;
  }
    
-
- .header__active {
-    list-style: none;
+ 
+ .header__active a {
+   text-decoration: none;
  }
 
+
+ .header__active {
+  list-style: none;
+ }
 
  .logo {
     display: block;
